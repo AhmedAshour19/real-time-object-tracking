@@ -27,6 +27,7 @@ The project uses the **CSRT (Channel and Spatial Reliability Tracker)** algorith
 4. For each new frame, the tracker updates the position of the object.  
 5. A bounding box is drawn around the tracked object to visualize tracking.  
 6. If tracking fails, the user can press **R** to reselect the object.
+![الصورة من Drive](https://drive.google.com/uc?export=view&id=1Y3pTF45AFqtGkpkIjAY1sH29GW70j4m1)
 
 ---
 
