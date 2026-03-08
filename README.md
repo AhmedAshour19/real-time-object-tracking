@@ -32,13 +32,14 @@ The project uses the **CSRT (Channel and Spatial Reliability Tracker)** algorith
 
 ## 4. How to Download and Run
 
-**Step 1: Clone the repository**
-
 ```bash
-git clone https://github.com/AhmedAshour19/object-tracking.git
+# Step 1: Clone the repository
+git clone https://github.com/AhmedAshour19/real-time-object-tracking
+.git
 cd object-tracking
 
-**Step 2: Install dependencies**
+# Step 2: Install the dependencies
 pip install -r requirements.txt
-**Step 3: Run the project**
+
+# Step 3: Run the project
 python main.py
