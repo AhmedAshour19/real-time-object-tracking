@@ -38,3 +38,52 @@ Among these trackers, **CSRT** was chosen as the default tracker because it prov
 ---
 
 ## Project Structure
+
+object-tracking
+│
+├── src
+│ ├── tracker.py
+│ └── utils.py
+│
+├── demo
+│ └── demo_video.mp4
+│
+├── main.py
+├── requirements.txt
+└── README.md
+
+
+
+
+### File Descriptions
+
+**main.py**
+
+Responsible for running the main application.  
+It initializes the webcam, allows the user to select the object, and performs real-time tracking.
+
+**tracker.py**
+
+Contains the `ObjectTracker` class which wraps different OpenCV tracking algorithms and provides a unified interface for initializing, updating, and reinitializing the tracker.
+
+**utils.py**
+
+Contains helper functions used throughout the project such as:
+
+- Drawing bounding boxes
+- Displaying text on frames
+- Calculating frames per second (FPS)
+
+**demo/demo_video.mp4**
+
+A recorded demonstration of the object tracking system in action.
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AhmedAshour19/object-tracking.git
+cd object-tracking
